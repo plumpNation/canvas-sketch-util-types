@@ -11,9 +11,11 @@ Also, using as a learning project to get some typings into DefinitelyTyped, whic
 
 ## To install
 
+Choose one of the methods below, based on preference or trial and error.
+
 ### DefinitelyTyped alias (@types)
 
-Add an entry for `"@types/canvas-sketch-util": "canvas-sketch-util-types"` in your package.json file and run the install with pnpm/yarn/npm.
+Add an entry for `"@types/canvas-sketch-util": "npm:canvas-sketch-util-types"` in your package.json file and run the install with pnpm/yarn/npm.
 
 ### Paths in tsconfig.json
 
