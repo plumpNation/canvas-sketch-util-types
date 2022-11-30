@@ -1,0 +1,8 @@
+{
+  "name": "canvas-sketch-util-types",
+  "version": "0.1.0",
+  "description": "Typings for the canvas-sketch-util library",
+  "main": "index.d.ts",
+  "author": "Gavin King <plumpnation@gmail.com>",
+  "license": "MIT"
+}

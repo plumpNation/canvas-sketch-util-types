@@ -1,0 +1,11 @@
+export function polylinesToSVG(polylines: any, opt: any): string;
+export function renderPolylines(polylines: any, opt: any): any[];
+export function createPath(fn: any): any;
+export function pathsToSVGPaths(inputs: any, opt: any): any[];
+export function pathsToPolylines(inputs: any, opt: any): any[];
+export function pathsToSVG(inputs: any, opt: any): string;
+export function renderPaths(inputs: any, opt: any): any[];
+export function convertToSVGPath(input: any, opt: any): any;
+export function eachPath(input: any, cb: any): void;
+export function drawSVGPath(context: any, svgPath: any): void;
+export function polylineToSVGPath(polyline: any, opt: any): string;
