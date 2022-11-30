@@ -53,7 +53,7 @@ export const math: {
     expand3D: (p: any, defaultValue: any) => any[];
     expand4D: (p: any, defaultValue: any) => any[];
 };
-export const penplot: typeof import(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/penplot");
-export const geometry: typeof import(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/geometry");
-export const shader: typeof import(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/shader");
-export const color: typeof import(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/color");
+export const penplot: typeof import("./penplot");
+export const geometry: typeof import("./geometry");
+export const shader: typeof import("./shader");
+export const color: typeof import("./color");

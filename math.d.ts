@@ -1,9 +1,10 @@
+import wrap = require("./lib/wrap");
+
 export function mod(a: any, b: any): number;
 export function fract(n: any): number;
 export function sign(n: any): 0 | 1 | -1;
 export function degToRad(n: any): number;
 export function radToDeg(n: any): number;
-import wrap = require(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/lib/wrap");
 export function pingPong(t: any, length: any): number;
 export function linspace(n: any, opts: any): number[];
 export function lerp(min: any, max: any, t: any): number;
