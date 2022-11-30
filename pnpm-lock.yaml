@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  regl: 2.1.0
+
+dependencies:
+  regl: 2.1.0
+
+packages:
+
+  /regl/2.1.0:
+    resolution: {integrity: sha512-oWUce/aVoEvW5l2V0LK7O5KJMzUSKeiOwFuJehzpSFd43dO5spP9r+sSUfhKtsky4u6MCqWJaRL+abzExynfTg==}
+    dev: false

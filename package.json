@@ -4,5 +4,8 @@
   "description": "Typings for the canvas-sketch-util library",
   "main": "index.d.ts",
   "author": "Gavin King <plumpnation@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "regl": "2.1.0"
+  }
 }
