@@ -1,3 +1,4 @@
+import { mod, fract, degToRad, radToDeg, wrap, pingPong, linspace, lerp, lerpArray, inverseLerp, lerpFrames, clamp, clamp01, smoothstep, damp, dampArray, mapRange, expand2D, expand3D, expand4D } from "./math";
 import { boolean, chance, createRandom, gaussian, getRandomSeed, getSeed, insideCircle, insideSphere, noise1D, noise2D, noise3D, noise4D, onCircle, onSphere, permuteNoise, pick, quaternion, range, rangeFloor, setSeed, shuffle, sign, value, valueNonZero, weighted, weightedSet, weightedSetIndex } from "./random";
 
 export const random: {
@@ -31,27 +32,27 @@ export const random: {
 };
 
 export const math: {
-    mod: (a: any, b: any) => number;
-    fract: (n: any) => number;
-    sign: (n: any) => 0 | 1 | -1;
-    degToRad: (n: any) => number;
-    radToDeg: (n: any) => number;
-    wrap: typeof import(".pnpm/canvas-sketch-util@1.10.0/node_modules/canvas-sketch-util/lib/wrap");
-    pingPong: (t: any, length: any) => number;
-    linspace: (n: any, opts: any) => number[];
-    lerp: (min: any, max: any, t: any) => number;
-    lerpArray: (min: any, max: any, t: any, out: any) => any;
-    inverseLerp: (min: any, max: any, t: any) => number;
-    lerpFrames: (values: any, t: any, out: any) => any;
-    clamp: (value: any, min: any, max: any) => any;
-    clamp01: (v: any) => any;
-    smoothstep: (min: any, max: any, t: any) => number;
-    damp: (a: any, b: any, lambda: any, dt: any) => number;
-    dampArray: (a: any, b: any, lambda: any, dt: any, out: any) => any;
-    mapRange: (value: any, inputMin: any, inputMax: any, outputMin: any, outputMax: any, clamp: any) => any;
-    expand2D: (p: any, defaultValue: any) => any[];
-    expand3D: (p: any, defaultValue: any) => any[];
-    expand4D: (p: any, defaultValue: any) => any[];
+    mod: typeof mod;
+    fract: typeof fract;
+    sign: typeof sign;
+    degToRad: typeof degToRad;
+    radToDeg: typeof radToDeg;
+    wrap: typeof wrap;
+    pingPong: typeof pingPong;
+    linspace: typeof linspace;
+    lerp: typeof lerp;
+    lerpArray: typeof lerpArray;
+    inverseLerp: typeof inverseLerp;
+    lerpFrames: typeof lerpFrames;
+    clamp: typeof clamp;
+    clamp01: typeof clamp01;
+    smoothstep: typeof smoothstep;
+    damp: typeof damp;
+    dampArray: typeof dampArray;
+    mapRange: typeof mapRange;
+    expand2D: typeof expand2D;
+    expand3D: typeof expand3D;
+    expand4D: typeof expand4D;
 };
 export const penplot: typeof import("./penplot");
 export const geometry: typeof import("./geometry");
