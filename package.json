@@ -5,7 +5,9 @@
   "main": "index.d.ts",
   "author": "Gavin King <plumpnation@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "regl": "2.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "regl": "2.1.0",
+    "@types/seed-random": "2.2.1"
   }
 }

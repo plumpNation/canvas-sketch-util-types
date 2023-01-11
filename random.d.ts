@@ -1,5 +1,7 @@
+import { Options as SeedOptions } from 'seed-random';
+
 export function value(): number;
-export function setSeed(seed: string | number, opt: any): void;
+export function setSeed(seed: string | number, opt: SeedOptions): void;
 export function getSeed(): string | number;
 export function getRandomSeed(): string;
 export function valueNonZero(): number;
@@ -10,20 +12,20 @@ export function noise3D(x: number, y: number, z: number, frequency: number, ampl
 export function noise4D(x: number, y: number, z: number, w: number, frequency: number, amplitude: number): number;
 export function sign(): 1 | -1;
 export function boolean(): boolean;
-export function chance(n: any): boolean;
+export function chance(n: number): boolean;
 export function range(min: number, max: number): number;
 export function rangeFloor(min: number, max: number): number;
 export function pick<R = unknown>(array: R[]): R;
 export function shuffle<R = unknown>(arr: R[]): R[];
-export function onCircle(radius: number, out: any): any;
-export function insideCircle(radius: number, out: any): any;
-export function onSphere(radius: number, out: any): any;
-export function insideSphere(radius: number, out: any): any;
-export function quaternion(out: any): any;
-export function weighted(weights: any): number;
-export function weightedSet(set: any): any;
-export function weightedSetIndex(set: any): number;
-export function gaussian(mean: any, standardDerivation: any): any;
+export function onCircle(radius?: number | null, out?: number[]): number[];
+export function insideCircle(radius?: number | null, out?: number[]): number[];
+export function onSphere(radius?: number, out?: number[]): number[];
+export function insideSphere(radius?: number | null, out?: number[]): number[];
+export function quaternion(out?: number[]): number[];
+export function weighted(weights?: number[]): number;
+export function weightedSet(set?: number[]): number | null;
+export function weightedSetIndex(set?: number[]): number;
+export function gaussian(mean?: number | null, standardDerivation?: number | null): number;
 export declare function createRandom(defaultSeed: string | number): {
     value: typeof value;
     createRandom: typeof createRandom;
