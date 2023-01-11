@@ -3,7 +3,7 @@ canvas-sketch-util-types
 
 An unfinished collection of typings based on the 1.10.0 version of canvas-sketch-util.
 
-The version of these typings will be changed to match the version of canvas-sketch-util it applies to once the typings are completed. 
+The version of these typings will be changed to match the version of canvas-sketch-util it applies to once the typings are completed.
 
 I exported a dump of the d.ts files and I'm trying to update them, removing all the uses of `any` as I use the functions and learn more about how they are used.
 
@@ -13,11 +13,11 @@ Also, using as a learning project to get some typings into DefinitelyTyped, whic
 
 Choose one of the methods below, based on preference or trial and error.
 
-### DefinitelyTyped alias (@types)
+### Method 1 - DefinitelyTyped alias (@types)
 
 Add an entry for `"@types/canvas-sketch-util": "npm:canvas-sketch-util-types"` in your package.json file and run the install with pnpm/yarn/npm.
 
-### Paths in tsconfig.json
+### Method 2 - Paths in tsconfig.json
 
 ```bash
 pnpm install canvas-sketch-util-types
